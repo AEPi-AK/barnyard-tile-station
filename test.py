@@ -13,7 +13,7 @@ rdr2 = RFID(bus=1, device=1, pin_rst=31, pin_irq=29, pin_ce=11)
 rdr3 = RFID(bus=1, device=2, pin_rst=5, pin_irq=3, pin_ce=36)
 rdrs = [rdr1, rdr2, rdr3]
 
-status_pins = [(21, 23), (15, 19), (24, 26)]
+status_pins = [(21, 23), (15, 13), (24, 26)]
 for (r, g) in status_pins:
     GPIO.setup(r, GPIO.OUT)
     GPIO.setup(g, GPIO.OUT)
