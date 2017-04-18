@@ -1,0 +1,4 @@
+RPi.GPIO==0.6.3
+pi-rc522==2.2.1
+requests==2.4.3
+spidev==3.0
